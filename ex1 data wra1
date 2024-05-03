@@ -11,6 +11,7 @@ df.isnull()
 df.info()
 
 df['Species'].replace(['Setosa' , 'Virginica'], [0,1], inplace = True) 
+
 df.head()
 
 df.tail()
