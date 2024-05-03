@@ -1,0 +1,18 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+df=pd.read_csv("iris.csv") df
+
+df.describe() 
+
+df.isnull() 
+
+df.info()
+
+df['Species'].replace(['Setosa' , 'Virginica'], [0,1], inplace = True) 
+df.head()
+
+df.tail()
+
+df['PetalWidth'].hist(bins=25)
